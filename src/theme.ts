@@ -16,7 +16,7 @@ const theme = extendTheme({ config }, {
   fonts: {
     heading: `'Open Sans', sans-serif`,
   }},
-  { colors: { ...baseTheme.colors, brand: baseTheme.colors.gray },
+  { colors: { ...baseTheme.colors, brand: baseTheme.colors.gray[200] },
   },
   proTheme,
 )

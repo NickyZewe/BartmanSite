@@ -10,6 +10,7 @@ import {
   MenuItem,
   MenuList,
   Spacer,
+  VStack,
 } from "@chakra-ui/react";
 import {
   FaFacebook,
@@ -78,62 +79,78 @@ const NavBar = () => {
 
       <Spacer />
 
-      <IconButton
-        as={Link}
-        href="https://www.linkedin.com/in/alexander-bartman-b5b093204"
-        isExternal
-        icon={<FaLinkedin />}
-        m={1}
-        aria-label="Linkedin Link"
-        isRound
-        variant={"outline"}
-        fontSize={"2xl"}
-      />
-      <IconButton
-        as={Link}
-        href=" https://www.youtube.com/@alexanderbartman1695"
-        isExternal
-        icon={<FaYoutube />}
-        m={1}
-        aria-label="YouTube Link"
-        isRound
-        variant={"outline"}
-        fontSize={"2xl"}
-      />
+      <Box>
+        {/* <VStack> */}
 
-      <IconButton
-        as={Link}
-        href="https://www.facebook.com/alex.bartman.56"
-        isExternal
-        icon={<FaFacebook />}
-        m={1}
-        aria-label="Facebook Link"
-        isRound
-        variant={"outline"}
-        fontSize={"2xl"}
-      />
-      <IconButton
-        as={Link}
-        href="https://twitter.com/Bartman_57"
-        isExternal
-        icon={<FaTwitter />}
-        m={1}
-        aria-label="Twitter Link"
-        isRound
-        variant={"outline"}
-        fontSize={"2xl"}
-      />
-      <IconButton
-        as={Link}
-        href="https://www.instagram.com/bartman_57/?hl=en"
-        isExternal
-        icon={<FaInstagram />}
-        m={1}
-        aria-label="Instagram Link"
-        isRound
-        variant={"outline"}
-        fontSize={"2xl"}
-      />
+        <IconButton
+          as={Link}
+          href="https://www.linkedin.com/in/alexander-bartman-b5b093204"
+          isExternal
+          icon={<FaLinkedin />}
+          m={1}
+          aria-label="Linkedin Link"
+          isRound
+          variant={"outline"}
+          fontSize={"2xl"}
+          size={"lg"}
+          border={"2px"}
+        />
+        <IconButton
+          as={Link}
+          href=" https://www.youtube.com/@alexanderbartman1695"
+          isExternal
+          icon={<FaYoutube />}
+          m={1}
+          aria-label="YouTube Link"
+          isRound
+          variant={"outline"}
+          fontSize={"2xl"}
+          size={"lg"}
+          border={"2px"}
+        />
+        <IconButton
+          as={Link}
+          href="https://www.facebook.com/alex.bartman.56"
+          isExternal
+          icon={<FaFacebook />}
+          m={1}
+          aria-label="Facebook Link"
+          isRound
+          variant={"outline"}
+          fontSize={"2xl"}
+          size={"lg"}
+          border={"2px"}
+        />
+
+        <IconButton
+          as={Link}
+          href="https://twitter.com/Bartman_57"
+          isExternal
+          icon={<FaTwitter />}
+          m={1}
+          aria-label="Twitter Link"
+          isRound
+          variant={"outline"}
+          fontSize={"2xl"}
+          size={"lg"}
+          border={"2px"}
+        />
+        <IconButton
+          as={Link}
+          href="https://www.instagram.com/bartman_57/?hl=en"
+          isExternal
+          icon={<FaInstagram />}
+          m={1}
+          aria-label="Instagram Link"
+          isRound
+          variant={"outline"}
+          fontSize={"2xl"}
+          size={"lg"}
+          border={"2px"}
+        />
+
+        {/* </VStack> */}
+      </Box>
     </Flex>
   );
 };
