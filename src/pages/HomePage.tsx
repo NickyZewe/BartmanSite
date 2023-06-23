@@ -13,30 +13,47 @@ const HomePage = () => {
     <>
       <Image
         alt="Placeholder Image"
-        src="https://pro.chakra-ui.com/components/marketing/blog/post1.png"
+        src="/public/images/photos-set/set3.png"
         objectFit="cover"
         objectPosition="center -140px"
         maxH={{ base: "sm", md: "lg" }}
         width="full"
+        borderRadius={10}
+        boxShadow={"dark-lg"}
+        _hover={{
+          transform: "scale(1.03)",
+          transition: "transform .45s ease-in",
+        }}
       />
       <Container py={{ base: "16", md: "24" }}>
         <SimpleGrid columns={{ base: 1, md: 2 }} columnGap={16} rowGap={4}>
-          <Heading size={{ base: "md", md: "xl" }}>
-            Create your app remarkable fast
+          <Heading size={{ base: "md", md: "xl" }} fontFamily={"open-sans"}>
+            Captivating storytelling at its finest
           </Heading>
           <Stack spacing={{ base: "6", md: "8" }} justifyContent="center">
-            <Text fontSize={{ base: "lg", md: "xl" }} color="fg.muted">
-              Choose from over 180+ beautiful and responsive components and
-              build your app twice as fast.
+            <Text
+              fontSize={{ base: "lg", md: "xl" }}
+              color="fg.muted"
+              textAlign={"justify"}
+              fontFamily={"open-sans"}
+              fontWeight={"bold"}
+              border={"2px solid black; padding"}
+              p={3}
+              borderRadius={10}
+              boxShadow={"dark-lg"}
+              _hover={{
+                transform: "scale(1.03)",
+                transition: "transform .25s ease-in",
+              }}
+            >
+              Alexander Bartman is a Director, Producer, and Writer currently
+              based in Pittsburgh, Pennsylvania. He has a bachelor’s degree in
+              Cinema Production from Point Park University. He specializes in
+              writing scripts for Short Films, Feature Films, Documentaries,
+              Promos & Commercials, and Voice-Over Work. Alexander directed his
+              first feature film, Closing Time, in 2021 which is set to release
+              in the Summer of 2022.
             </Text>
-            <Stack direction={{ base: "column", md: "row" }} spacing="3">
-              <Button variant="primary" size={{ base: "lg", md: "xl" }}>
-                Buy now
-              </Button>
-              <Button variant="secondary" size={{ base: "lg", md: "xl" }}>
-                Learn more
-              </Button>
-            </Stack>
           </Stack>
         </SimpleGrid>
       </Container>

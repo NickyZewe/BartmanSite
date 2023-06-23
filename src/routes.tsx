@@ -4,6 +4,9 @@ import ErrorPage from "./pages/ErrorPage";
 import HomePage from "./pages/HomePage";
 import Layout from "./pages/Layout";
 import PortfolioPage from "./pages/PortfolioPage";
+import ClosingTimePage from "./pages/ClosingTimePage";
+import AboutPage from "./pages/ABoutPage";
+import ArizBayProdPage from "./pages/ArizBayProdPage";
 
 const router = createBrowserRouter([
   {
@@ -12,7 +15,11 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       { index: true, element: <HomePage /> },
-      { path: "/shop", element: <PortfolioPage /> },
+      { path: "/about", element: <AboutPage /> },
+      { path: "/portfolio", element: <PortfolioPage /> },
+      { path: "/closingtime", element: <ClosingTimePage /> },
+      { path: "/arizonabayproductions", element: <ArizBayProdPage /> },
+      { path: "/portfolio", element: <PortfolioPage /> },
       { path: "/contact", element: <ContactPage /> },
     ],
   },

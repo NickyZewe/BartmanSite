@@ -1,10 +1,8 @@
 import {
   Box,
   BoxProps,
-  Button,
   Heading,
   Image,
-  LightMode,
   Skeleton,
   Stack,
   Text,
@@ -67,17 +65,6 @@ export const ImageWithOverlay = (props: ImageWithOverlayProps) => {
               </Text>
             )}
           </Stack>
-          <LightMode>
-            <Button
-              bg="white"
-              color="gray.800"
-              alignSelf="start"
-              as="a"
-              href={url}
-            >
-              Shop now
-            </Button>
-          </LightMode>
         </Stack>
       </Box>
     </Box>

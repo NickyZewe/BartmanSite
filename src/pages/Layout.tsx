@@ -9,7 +9,7 @@ const Layout = () => {
       <VStack spacing={0}>
         <NavBar />
         <Spacer />
-        <Box h={"100%"}>
+        <Box h={"100%"} justifyContent={"center"}>
           <Outlet />
         </Box>
         <Footer />
