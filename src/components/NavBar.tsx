@@ -71,10 +71,10 @@ const NavBar = () => {
       <Spacer />
 
       <NavLink to={"/"}>
-        <Flex>
+        <Flex flex={1}>
           <Heading
             as="h1"
-            size={"xl"}
+            size={{ base: "md", sm: "xl" }}
             color="gray.50"
             paddingInline={2}
             fontFamily={"Open-sans"}
@@ -86,7 +86,6 @@ const NavBar = () => {
         </Flex>
       </NavLink>
 
-      <Spacer />
       <Spacer />
     </Flex>
   );

@@ -16,14 +16,19 @@ const PortfolioPage = () => {
           align={{ base: "start", md: "center" }}
           direction={{ base: "column", md: "row" }}
         >
-          <Heading size="lg" mb={{ base: "3", md: "0" }}>
-            View My Work
+          <Heading
+            size="lg"
+            mb={{ base: "3", md: "0" }}
+            fontFamily={"open-sans"}
+            fontWeight={"light"}
+          >
+            My Work
           </Heading>
         </Flex>
         <SimpleGrid
           columns={{ base: 1, sm: 2, md: 3 }}
           gap={{ base: "4", md: "6" }}
-          boxSize={{ md: "xl", lg: "2xl", xl: "3xl" }}
+          boxSize={{ sm: "md", md: "lg", lg: "2xl", xl: "3xl" }}
         >
           {categories.map((category) => (
             <PortfolioCard key={category.name} category={category} />
