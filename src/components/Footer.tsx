@@ -1,29 +1,35 @@
 import {
-  Box,
   Flex,
-  VStack,
+  HStack,
   Heading,
   IconButton,
   Link,
+  SimpleGrid,
   Stack,
   Text,
-  HStack,
 } from "@chakra-ui/react";
 import {
-  FaLinkedin,
-  FaYoutube,
   FaFacebook,
+  FaLinkedin,
   FaTwitter,
-  FaInstagram,
+  FaVimeo,
+  FaYoutube,
 } from "react-icons/fa";
+
+import { BiLogoInstagramAlt } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <Flex p={5} h="1fr" overflow={"hidden"} w="100%">
+    <Flex
+      mx="auto"
+      px={{ base: "4", md: "8", lg: "12" }}
+      py={{ base: "6", md: "8", lg: "12" }}
+      w={"100%"}
+    >
       <Stack spacing={{ base: "4", md: "5" }}>
         <Heading
           as="h1"
-          size={"xl"}
+          size={"lg"}
           color="gray.50"
           paddingInline={2}
           fontFamily={"Open-sans"}
@@ -32,7 +38,7 @@ const Footer = () => {
           Alexander Bartman
         </Heading>
 
-        <HStack>
+        <SimpleGrid columns={{ base: 3, sm: 7 }} gap={{ base: "4", md: "6" }}>
           <IconButton
             as={Link}
             href="https://www.linkedin.com/in/alexander-bartman-b5b093204"
@@ -41,8 +47,8 @@ const Footer = () => {
             m={1}
             aria-label="Linkedin Link"
             isRound
-            variant={"outline"}
             fontSize={"2xl"}
+            color={"#f4f8fa"}
             size={"lg"}
             border={"2px"}
           />
@@ -54,9 +60,22 @@ const Footer = () => {
             m={1}
             aria-label="YouTube Link"
             isRound
-            variant={"outline"}
             fontSize={"2xl"}
             size={"lg"}
+            color={"#f4f8fa"}
+            border={"2px"}
+          />
+          <IconButton
+            as={Link}
+            href=" https://vimeo.com/alexanderbartman"
+            isExternal
+            icon={<FaVimeo />}
+            m={1}
+            aria-label="Vimeo Link"
+            isRound
+            fontSize={"2xl"}
+            size={"lg"}
+            color={"#f4f8fa"}
             border={"2px"}
           />
           <IconButton
@@ -67,8 +86,8 @@ const Footer = () => {
             m={1}
             aria-label="Facebook Link"
             isRound
-            variant={"outline"}
             fontSize={"2xl"}
+            color={"#f4f8fa"}
             size={"lg"}
             border={"2px"}
           />
@@ -80,25 +99,25 @@ const Footer = () => {
             m={1}
             aria-label="Twitter Link"
             isRound
-            variant={"outline"}
+            color={"#f4f8fa"}
             fontSize={"2xl"}
             size={"lg"}
-            border={"2px"}
+            border={"2px "}
           />
           <IconButton
             as={Link}
             href="https://www.instagram.com/bartman_57/?hl=en"
             isExternal
-            icon={<FaInstagram />}
+            icon={<BiLogoInstagramAlt />}
             m={1}
             aria-label="Instagram Link"
             isRound
-            variant={"outline"}
-            fontSize={"2xl"}
+            color={"#f4f8fa"}
+            fontSize={"3xl"}
             size={"lg"}
             border={"2px"}
           />
-        </HStack>
+        </SimpleGrid>
         <Text fontSize="sm" color="#ffffff">
           &copy; {new Date().getFullYear()} Nicholas Zewe Web Developement. All
           rights reserved.

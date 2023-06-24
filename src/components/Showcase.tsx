@@ -28,7 +28,7 @@ const Showcase = () => {
             flex="1"
             objectPosition="top center"
             objectFit={"contain"}
-            title="About Me"
+            title="About"
             src="/images/headshot.png"
             alt="Lovely Image"
           />
@@ -95,7 +95,7 @@ const Showcase = () => {
               }}
               onClick={() => navigate("/portfolio")}
               spacing="4"
-              title="Contact Me"
+              title="Contact"
               src="/images/photos-set/set2.png"
               alt="Lovely Image"
               h={"100%"}

@@ -5,7 +5,12 @@ import NavBar from "../components/NavBar";
 
 const Layout = () => {
   return (
-    <Flex direction="column" flex="1" justify={"center"}>
+    <Flex
+      direction="column"
+      flex="1"
+      justify={"center"}
+      bgGradient="linear(to-bl,#030303 , #6c6c6c, #030303 )"
+    >
       <VStack spacing={0}>
         <NavBar />
         <Spacer />

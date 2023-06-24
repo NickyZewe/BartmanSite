@@ -35,24 +35,36 @@ const NavBar = () => {
           mr={3}
         />
 
-        <MenuList fontFamily={"open-sans"} fontSize={"lg"}>
+        <MenuList fontFamily={"open-sans"} fontSize={"lg"} bgColor={"#525252"}>
           <NavLink to={"/"}>
-            <MenuItem color="gray.50">Home</MenuItem>
+            <MenuItem color="gray.50" bgColor={"#525252"}>
+              Home
+            </MenuItem>
           </NavLink>
           <NavLink to={"/about"}>
-            <MenuItem color="gray.50">About</MenuItem>
+            <MenuItem color="gray.50" bgColor={"#525252"}>
+              About
+            </MenuItem>
           </NavLink>
           <NavLink to={"/portfolio"}>
-            <MenuItem color="gray.50">Portfolio</MenuItem>
+            <MenuItem color="gray.50" bgColor={"#525252"}>
+              Portfolio
+            </MenuItem>
           </NavLink>
           <NavLink to={"/arizonabayproductions"}>
-            <MenuItem color="gray.50">Arizona Bay Productions</MenuItem>
+            <MenuItem color="gray.50" bgColor={"#525252"}>
+              Arizona Bay Productions
+            </MenuItem>
           </NavLink>
           <NavLink to={"/closingtime"}>
-            <MenuItem color="gray.50">Closing Time</MenuItem>
+            <MenuItem color="gray.50" bgColor={"#525252"}>
+              Closing Time
+            </MenuItem>
           </NavLink>
           <NavLink to={"/contact"}>
-            <MenuItem color="gray.50">Contact Me</MenuItem>
+            <MenuItem color="gray.50" bgColor={"#525252"}>
+              Contact Me
+            </MenuItem>
           </NavLink>
         </MenuList>
       </Menu>

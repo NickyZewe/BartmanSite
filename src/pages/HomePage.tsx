@@ -1,5 +1,4 @@
 import {
-  Button,
   Container,
   Heading,
   Image,
@@ -20,14 +19,14 @@ const HomePage = () => {
         width="full"
         borderRadius={10}
         boxShadow={"dark-lg"}
-        _hover={{
-          transform: "scale(1.03)",
-          transition: "transform .45s ease-in",
-        }}
       />
       <Container py={{ base: "16", md: "24" }}>
         <SimpleGrid columns={{ base: 1, md: 2 }} columnGap={16} rowGap={4}>
-          <Heading size={{ base: "md", md: "xl" }} fontFamily={"open-sans"}>
+          <Heading
+            size={{ base: "md", md: "xl" }}
+            fontFamily={"open-sans"}
+            color={"#ffffff"}
+          >
             Captivating storytelling at its finest
           </Heading>
           <Stack spacing={{ base: "6", md: "8" }} justifyContent="center">
@@ -37,7 +36,7 @@ const HomePage = () => {
               textAlign={"justify"}
               fontFamily={"open-sans"}
               fontWeight={"bold"}
-              border={"2px solid black; padding"}
+              border={"0.px solid black;"}
               p={3}
               borderRadius={10}
               boxShadow={"dark-lg"}

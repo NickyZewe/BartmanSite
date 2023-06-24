@@ -1,28 +1,35 @@
-import { Box, Flex, Heading, VStack } from "@chakra-ui/react";
-import { ProductCard } from "../components/ProductCard";
-import { ProductGrid } from "../components/ProductGrid";
-import { products } from "../utilities/productData";
+import { Flex, Heading, SimpleGrid, Stack } from "@chakra-ui/react";
+import PortfolioCard from "../components/PortfolioCard";
+import { categories } from "../utilities/portfolioData";
 
 const PortfolioPage = () => {
   return (
-    <Flex>
-      <VStack>
-        <Heading size="3xl" color={"black"} pt={5}>
-          Shop
-        </Heading>
-        <Box
-          maxW="7xl"
-          mx="auto"
-          px={{ base: "4", md: "8", lg: "12" }}
-          py={{ base: "6", md: "8", lg: "12" }}
+    <Flex
+      maxW="7xl"
+      mx="auto"
+      px={{ base: "4", md: "8", lg: "12" }}
+      py={{ base: "6", md: "8", lg: "12" }}
+    >
+      <Stack spacing={{ base: "6", md: "8", lg: "12" }}>
+        <Flex
+          justify="space-between"
+          align={{ base: "start", md: "center" }}
+          direction={{ base: "column", md: "row" }}
         >
-          <ProductGrid>
-            {products.map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
-          </ProductGrid>
-        </Box>
-      </VStack>
+          <Heading size="lg" mb={{ base: "3", md: "0" }}>
+            View My Work
+          </Heading>
+        </Flex>
+        <SimpleGrid
+          columns={{ base: 1, sm: 2, md: 3 }}
+          gap={{ base: "4", md: "6" }}
+          boxSize={{ md: "xl", lg: "2xl", xl: "3xl" }}
+        >
+          {categories.map((category) => (
+            <PortfolioCard key={category.name} category={category} />
+          ))}
+        </SimpleGrid>
+      </Stack>
     </Flex>
   );
 };
