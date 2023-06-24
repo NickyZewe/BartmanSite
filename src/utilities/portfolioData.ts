@@ -3,55 +3,49 @@ export const categories = [
       name: 'Closing Time',
       imageUrl:
         '/images/closing-time/poster.png',
-      url: '#',
+      url: '/closingtime',
+    },
+    {
+      name: 'Trailer One',
+      imageUrl:'/images/portfolio8.png',
+      
+      url: 'https://www.youtube.com/watch?v=4HaMf4Sj9UE',
+    },
+    {
+      name: 'Trailer Two',
+      imageUrl:'/images/portfolio9.png',
+      url: ' https://youtu.be/L85Cu4GHOJA',
     },
     {
       name: 'Directing Reel 2023',
       imageUrl:
-        'https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZnVybml0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      url: '#',
-    },
-    {
-      name: 'Trailer One',
-      imageUrl:
-        'https://images.unsplash.com/photo-1613317447829-eea2ed59640f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80',
-      url: '#',
-    },
-    {
-      name: 'Trailer Two',
-      imageUrl:
-        'https://images.unsplash.com/photo-1616627561950-9f746e330187?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80',
-      url: '#',
+        '/images/portfolio11.png',
+      url: 'https://www.youtube.com/watch?v=Y5eDiXV9Ua4',
     },
     {
       name: 'Behind the scenes',
-      imageUrl:
-        'https://images.unsplash.com/photo-1606170033648-5d55a3edf314?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1548&q=80',
-      url: '#',
+      imageUrl:'/images/photos-set/set2.png',
+      url: 'https://www.youtube.com/watch?v=l-wSxwoQhSM',
     },
     {
       name: 'A Short Film About Death',
-      imageUrl:
-        'https://images.unsplash.com/photo-1583778176476-4a8b02a64c01?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80',
-      url: '#',
+      imageUrl:'/images/portfolio5.png',
+      url: 'https://www.youtube.com/watch?v=QVmEd9yI-ms',
     },
     {
       name: 'DUKHA',
-      imageUrl:
-        'https://images.unsplash.com/photo-1600166898405-da9535204843?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80',
-      url: '#',
+      imageUrl:'/images/portfolio10.png',
+      url: 'https://www.youtube.com/watch?v=BQo2diwJ3xM',
     },
     {
       name: 'Possession',
-      imageUrl:
-        'https://images.unsplash.com/photo-1574175679797-9fc9eade1450?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJhYnklMjB0b3lzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      url: '#',
+      imageUrl:'/images/portfolio7.png',
+      url: 'https://www.youtube.com/watch?v=MoLEnaObiik',
     },
     {
       name: 'Videography Work: TBA',
-      imageUrl:
-        'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80',
-      url: '#',
+      imageUrl:'/images/photos-set/set5.png',
+      
     },
   ]
   

@@ -22,7 +22,7 @@ const PortfolioPage = () => {
             fontFamily={"open-sans"}
             fontWeight={"light"}
           >
-            My Work
+            Portfolio
           </Heading>
         </Flex>
         <SimpleGrid

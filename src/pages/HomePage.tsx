@@ -14,7 +14,7 @@ const HomePage = () => {
       <Container>
         <Image
           alt="Placeholder Image"
-          src="/public/images/photos-set/set3.png"
+          src="/images/photos-set/set3.png"
           objectFit="cover"
           objectPosition="center"
           maxH={{ base: "sm", md: "lg" }}
@@ -28,6 +28,7 @@ const HomePage = () => {
               size={{ base: "md", md: "xl" }}
               fontFamily={"open-sans"}
               color={"#ffffff"}
+              fontWeight={"light"}
             >
               Captivating storytelling at its finest
             </Heading>
@@ -37,7 +38,7 @@ const HomePage = () => {
                 color="fg.muted"
                 textAlign={"justify"}
                 fontFamily={"open-sans"}
-                fontWeight={"bold"}
+                fontWeight={"light"}
                 border={"0.px solid black;"}
                 p={3}
                 borderRadius={10}

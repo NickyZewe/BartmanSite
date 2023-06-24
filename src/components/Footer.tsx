@@ -1,6 +1,5 @@
 import {
   Flex,
-  HStack,
   Heading,
   IconButton,
   Link,
