@@ -22,10 +22,16 @@ const PortfolioCard = (props: Props) => {
       borderRadius="xl"
       overflow="hidden"
       {...rootProps}
+      _hover={{
+        transform: "scale(1.03)",
+        transition: "transform .15s ease-in",
+        cursor: "pointer",
+      }}
     >
-      <Link>
+      <Link href={category.url} isExternal>
         <AspectRatio ratio={1 / 1}>
           <Image
+            objectFit={"scale-down"}
             src={category.imageUrl}
             alt={category.name}
             fallback={<Skeleton />}
