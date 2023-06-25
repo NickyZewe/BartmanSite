@@ -32,6 +32,9 @@ const ClosingTimeHero = () => {
               <Text fontSize={{ base: "lg", md: "3xl" }} color="fg.muted">
                 An independant feature film.
               </Text>
+              <Text fontSize={{ base: "lg", md: "3xl" }} color="fg.muted">
+                Coming out soon.
+              </Text>
             </Stack>
           </Stack>
           <AspectRatio maxW="560px" ratio={10 / 13}>

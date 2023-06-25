@@ -45,12 +45,12 @@ export const CarouselIconButton = (props: IconButtonProps) => (
     minW="auto"
     display="inline-flex"
     fontSize="2xl"
-    color={useColorModeValue("gray.600", "gray.400")}
+    color={useColorModeValue("white.600", "white.600")}
     _hover={{
-      color: useColorModeValue("blue.500", "blue.300"),
+      color: useColorModeValue("gray.600", "gray.600"),
       _disabled: { color: useColorModeValue("gray.600", "gray.400") },
     }}
-    _active={{ color: useColorModeValue("blue.600", "blue.400") }}
+    _active={{ color: useColorModeValue("white.600", "white.400") }}
     _focus={{ boxShadow: "none" }}
     _focusVisible={{ boxShadow: "outline" }}
     {...props}
