@@ -6,7 +6,6 @@ import {
   IconButton,
   IconButtonProps,
   useColorModeValue,
-  useEnvironment,
 } from "@chakra-ui/react";
 import { KeenSliderOptions, useKeenSlider } from "keen-slider/react"; // using version 6.6.10
 import { forwardRef } from "react";
@@ -58,8 +57,8 @@ export const CarouselIconButton = (props: IconButtonProps) => (
 );
 
 export const useCarousel = (options?: KeenSliderOptions) => {
-  const env = useEnvironment({ defer: true });
-  const win = env.getWindow() as typeof window;
+  // const env = useEnvironment({ defer: true });
+  // const win = env.getWindow() as typeof window;
   const defaultOptions = { selector: ".chakra-carousel__slide" };
   return useKeenSlider<HTMLDivElement>({ ...defaultOptions, ...options });
 };

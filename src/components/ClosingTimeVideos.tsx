@@ -2,7 +2,6 @@ import {
   AspectRatio,
   Box,
   Container,
-  Flex,
   Heading,
   SimpleGrid,
   Stack,
