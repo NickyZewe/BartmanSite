@@ -46,17 +46,12 @@ const Showcase = () => {
               alt="Lovely Image"
             />
             <ImageWithOverlay
-              _hover={{
-                transform: "scale(1.03)",
-                transition: "transform .15s ease-in",
-                cursor: "pointer",
-              }}
-              onClick={() => navigate("/arizonabayproductions")}
               spacing="4"
               title="Arizona Bay Productions"
               src="/images/closing-time/closingtime1.png"
               alt=""
               objectPosition="top center"
+              description="Coming Soon"
             />
           </Stack>
         </Stack>

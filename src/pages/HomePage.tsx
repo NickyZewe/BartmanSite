@@ -30,7 +30,7 @@ const HomePage = () => {
               color={"#ffffff"}
               fontWeight={"light"}
             >
-              Captivating storytelling at its finest
+              Captivating, immersive storytelling
             </Heading>
             <Stack spacing={{ base: "6", md: "8" }} justifyContent="center">
               <Text
