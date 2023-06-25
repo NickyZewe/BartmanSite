@@ -43,7 +43,7 @@ const ContactHero = () => {
           >
             Phone: 412-551-3872
           </Text>
-          <Heading as={"h5"} size={{ base: "sm" }}>
+          <Heading as={"h5"} size={{ base: "sm" }} fontFamily={"open-sans"}>
             Arizona Bay Productions LLC
           </Heading>
           <Text

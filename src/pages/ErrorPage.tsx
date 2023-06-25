@@ -18,12 +18,7 @@ const ErrorPage = () => {
               : "An unexpected error occured."}
           </Text>
           <NavLink to={"/"}>
-            <Button
-              colorScheme="blue"
-              fontWeight="light"
-              fontSize="2xl"
-              fontFamily={"open-sans"}
-            >
+            <Button fontWeight="light" fontSize="2xl" fontFamily={"open-sans"}>
               Back to Home Page
             </Button>
           </NavLink>
