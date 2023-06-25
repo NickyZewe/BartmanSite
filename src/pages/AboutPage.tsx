@@ -1,5 +1,7 @@
+import AboutHero from "../components/AboutHero";
+
 const AboutPage = () => {
-  return <div>ArtistPage</div>;
+  return <AboutHero />;
 };
 
 export default AboutPage;

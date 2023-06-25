@@ -51,7 +51,7 @@ const Showcase = () => {
                 transition: "transform .15s ease-in",
                 cursor: "pointer",
               }}
-              onClick={() => navigate("/closingtime")}
+              onClick={() => navigate("/arizonabayproductions")}
               spacing="4"
               title="Arizona Bay Productions"
               src="/images/closing-time/closingtime1.png"
@@ -79,7 +79,7 @@ const Showcase = () => {
               transition: "transform .15s ease-in",
               cursor: "pointer",
             }}
-            onClick={() => navigate("/portfolio")}
+            onClick={() => navigate("/closingtime")}
             flex="1"
             objectPosition="top center"
             title="Closing Time"
@@ -93,7 +93,7 @@ const Showcase = () => {
                 transition: "transform .15s ease-in",
                 cursor: "pointer",
               }}
-              onClick={() => navigate("/portfolio")}
+              onClick={() => navigate("/contact")}
               spacing="4"
               title="Contact"
               src="/images/photos-set/set2.png"

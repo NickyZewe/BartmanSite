@@ -5,7 +5,7 @@ import HomePage from "./pages/HomePage";
 import Layout from "./pages/Layout";
 import PortfolioPage from "./pages/PortfolioPage";
 import ClosingTimePage from "./pages/ClosingTimePage";
-import AboutPage from "./pages/ABoutPage";
+import AboutPage from "./pages/AboutPage";
 import ArizBayProdPage from "./pages/ArizBayProdPage";
 
 const router = createBrowserRouter([
@@ -19,7 +19,6 @@ const router = createBrowserRouter([
       { path: "/portfolio", element: <PortfolioPage /> },
       { path: "/closingtime", element: <ClosingTimePage /> },
       { path: "/arizonabayproductions", element: <ArizBayProdPage /> },
-      { path: "/portfolio", element: <PortfolioPage /> },
       { path: "/contact", element: <ContactPage /> },
     ],
   },

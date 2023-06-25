@@ -35,34 +35,58 @@ const NavBar = () => {
           mr={3}
         />
 
-        <MenuList fontFamily={"open-sans"} fontSize={"lg"} bgColor={"#525252"}>
+        <MenuList fontFamily={"open-sans"} fontSize={"2xl"} bgColor={"#525252"}>
           <NavLink to={"/"}>
-            <MenuItem color="gray.50" bgColor={"#525252"}>
+            <MenuItem
+              color="gray.50"
+              bgColor={"#525252"}
+              _hover={{ bgColor: "#2a2a2a" }}
+            >
               Home
             </MenuItem>
           </NavLink>
           <NavLink to={"/about"}>
-            <MenuItem color="gray.50" bgColor={"#525252"}>
+            <MenuItem
+              color="gray.50"
+              bgColor={"#525252"}
+              _hover={{ bgColor: "#2a2a2a" }}
+            >
               About
             </MenuItem>
           </NavLink>
           <NavLink to={"/portfolio"}>
-            <MenuItem color="gray.50" bgColor={"#525252"}>
+            <MenuItem
+              color="gray.50"
+              bgColor={"#525252"}
+              _hover={{ bgColor: "#2a2a2a" }}
+            >
               Portfolio
             </MenuItem>
           </NavLink>
           <NavLink to={"/arizonabayproductions"}>
-            <MenuItem color="gray.50" bgColor={"#525252"}>
+            <MenuItem
+              color="gray.50"
+              bgColor={"#525252"}
+              _hover={{ bgColor: "#2a2a2a" }}
+            >
               Arizona Bay Productions
             </MenuItem>
           </NavLink>
           <NavLink to={"/closingtime"}>
-            <MenuItem color="gray.50" bgColor={"#525252"}>
+            <MenuItem
+              color="gray.50"
+              bgColor={"#525252"}
+              _hover={{ bgColor: "#2a2a2a" }}
+            >
               Closing Time
             </MenuItem>
           </NavLink>
           <NavLink to={"/contact"}>
-            <MenuItem color="gray.50" bgColor={"#525252"}>
+            <MenuItem
+              color="gray.50"
+              bgColor={"#525252"}
+              _hover={{ bgColor: "#2a2a2a" }}
+            >
               Contact Me
             </MenuItem>
           </NavLink>
