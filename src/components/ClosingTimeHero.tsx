@@ -40,7 +40,7 @@ const ClosingTimeHero = () => {
           <AspectRatio maxW="560px" ratio={10 / 13}>
             <Image
               objectFit="cover"
-              src="/public/images/closing-time/poster.png"
+              src="/images/closing-time/poster.png"
               alt="Closing Time movie poster"
               borderRadius={"xl"}
             />
