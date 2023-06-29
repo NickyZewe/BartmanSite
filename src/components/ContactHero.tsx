@@ -23,39 +23,53 @@ const ContactHero = () => {
           </AspectRatio>
         </Stack>
         <Stack spacing={{ base: "4", md: "6" }}>
-          <Heading size={{ base: "lg", md: "xl" }} fontFamily={"open-sans"}>
+          <Heading
+            size={{ base: "lg", md: "xl" }}
+            fontFamily={"open-sans"}
+            color="#FFFFFF"
+          >
             Contact Information
           </Heading>
-          <Heading as={"h5"} size={{ base: "sm" }} fontFamily={"open-sans"}>
+          <Heading
+            as={"h5"}
+            size={{ base: "sm" }}
+            fontFamily={"open-sans"}
+            textColor="#FFFFFF"
+          >
             Alexander Bartman
           </Heading>
           <Text
             fontSize={{ base: "lg", md: "xl" }}
-            color="fg.muted"
+            textColor="#FFFFFF"
             fontFamily={"open-sans"}
           >
             Email: alexander.bartman726@gmail.com
           </Text>
           <Text
             fontSize={{ base: "lg", md: "xl" }}
-            color="fg.muted"
+            textColor="#FFFFFF"
             fontFamily={"open-sans"}
           >
             Phone: 412-551-3872
           </Text>
-          <Heading as={"h5"} size={{ base: "sm" }} fontFamily={"open-sans"}>
+          <Heading
+            as={"h5"}
+            size={{ base: "sm" }}
+            fontFamily={"open-sans"}
+            textColor="#FFFFFF"
+          >
             Arizona Bay Productions LLC
           </Heading>
           <Text
             fontSize={{ base: "lg", md: "xl" }}
-            color="fg.muted"
+            textColor="#FFFFFF"
             fontFamily={"open-sans"}
           >
             Email: arizonabayproductions@gmail.com
           </Text>
           <Text
             fontSize={{ base: "lg", md: "xl" }}
-            color="fg.muted"
+            textColor="#FFFFFF"
             fontFamily={"open-sans"}
           >
             Phone: 412-551-3872

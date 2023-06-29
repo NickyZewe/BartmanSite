@@ -5,6 +5,7 @@ import {
   Heading,
   SimpleGrid,
   Stack,
+  Text,
 } from "@chakra-ui/react";
 import { images } from "../utilities/imageData";
 import { Gallery } from "./Gallery";
@@ -20,7 +21,7 @@ const ClosingTimeVideos = () => {
               title="YouTube video player"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-            ></iframe>
+            />
           </AspectRatio>
           <Stack
             spacing={{ base: "8", md: "12" }}
@@ -28,13 +29,22 @@ const ClosingTimeVideos = () => {
             direction={{ base: "column", md: "row" }}
           >
             <Stack spacing={{ base: "4", md: "6" }}>
-              <Heading
+              <Text
+                fontSize={{ base: "lg", md: "3xl" }}
+                color="white"
                 size={{ base: "md", md: "xl" }}
                 fontFamily={"open-sans"}
                 fontWeight={"light"}
+                textAlign={"justify"}
               >
-                Trailer One
-              </Heading>
+                Set over the course of a day, escaping mediocrity is all you can
+                do. Jack and Fran are two lost souls in a dying city. Jack, a
+                down and out painter, seeks an idealistic love and inspiration,
+                as Fran, a former ballerina, lives in a world of what could have
+                been. Meeting an unexpected way, they both choose to be open as
+                they navigate conversations from jazz through the minutiae of
+                life.
+              </Text>
             </Stack>
           </Stack>
         </SimpleGrid>
@@ -59,7 +69,7 @@ const ClosingTimeVideos = () => {
               title="YouTube video player"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-            ></iframe>
+            />
           </AspectRatio>
         </SimpleGrid>
       </Container>
@@ -72,7 +82,7 @@ const ClosingTimeVideos = () => {
               title="YouTube video player"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-            ></iframe>
+            />
           </AspectRatio>
           <Stack spacing={{ base: "8", md: "12" }} justifyContent="center">
             <Stack spacing={{ base: "4", md: "6" }}>

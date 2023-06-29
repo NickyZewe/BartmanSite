@@ -17,16 +17,17 @@ const AboutHero = () => {
           <Stack spacing={{ base: "4", md: "6" }}>
             <Text
               fontSize={{ base: "lg", md: "xl" }}
-              color="fg.muted"
+              textColor="#FFFFFF"
               fontFamily={"open-sans"}
               textAlign={"justify"}
             >
-              Alexander Bartman, an acclaimed Director, Producer, and Writer
-              based in Pittsburgh, Pennsylvania. With a degree in Cinema
-              Production, his expertise spans Short Films, Feature Films,
-              Documentaries, Promos & Commercials, and Voice-Over Work. Look out
-              for his highly anticipated debut feature film, "Closing Time,"
-              releasing in Summer 2022.
+              Alexander Bartman is a Director and Writer based in Pittsburgh,
+              Pennsylvania. He is a graduate of a Cinema Production Major at
+              Point Park University with a concentration in directing and
+              writing. His first feature Closing Time premiered in 2022. Winning
+              Awards and being selected in numerous festivals across the globe.
+              Alexander founded the independent production company Arizona Bay
+              Productions in 2021, and has future plans to grow his business.
             </Text>
           </Stack>
           <Stack spacing="3">
@@ -36,7 +37,7 @@ const AboutHero = () => {
                   variant="primary"
                   size={{ base: "lg", md: "xl" }}
                   fontSize={{ base: "lg", md: "xl" }}
-                  color="fg.muted"
+                  textColor="#FFFFFF"
                   fontFamily={"open-sans"}
                   fontWeight={"light"}
                   outlineColor={"fg.muted"}
@@ -51,7 +52,7 @@ const AboutHero = () => {
                   variant="primary"
                   size={{ base: "lg", md: "xl" }}
                   fontSize={{ base: "lg", md: "xl" }}
-                  color="fg.muted"
+                  textColor="#FFFFFF"
                   fontFamily={"open-sans"}
                   fontWeight={"light"}
                   outlineColor={"fg.muted"}
@@ -66,7 +67,7 @@ const AboutHero = () => {
                   variant="primary"
                   size={{ base: "lg", md: "xl" }}
                   fontSize={{ base: "lg", md: "xl" }}
-                  color="fg.muted"
+                  textColor="#FFFFFF"
                   fontFamily={"open-sans"}
                   fontWeight={"light"}
                   outlineColor={"fg.muted"}
@@ -82,8 +83,8 @@ const AboutHero = () => {
         <AspectRatio ratio={1}>
           <Image
             objectFit="initial"
-            objectPosition={{ base: "center", lg: "left" }}
-            src="/images/headshot2.png"
+            objectPosition={{ base: "center" }}
+            src="/images/headshot3.png"
             alt="Alexander Bartman Headshot"
             borderRadius="xl"
           />

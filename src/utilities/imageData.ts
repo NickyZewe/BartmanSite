@@ -59,6 +59,46 @@ export const images = [
       src: '/images/photos-set/set5.png',
       alt: 'Awesome watch',
     },
+    {
+      id: '13',
+      src: '/images/misc/misc1.png',
+      alt: 'Awesome watch',
+    },
+    {
+      id: '14',
+      src: '/images/misc/misc2.png',
+      alt: 'Awesome watch',
+    },
+    {
+      id: '15',
+      src: '/images/misc/misc3.png',
+      alt: 'Awesome watch',
+    },
+    {
+      id: '16',
+      src: '/images/misc/misc4.png',
+      alt: 'Awesome watch',
+    },
+    {
+      id: '17',
+      src: '/images/misc/3awards.png',
+      alt: 'Awesome watch',
+    },
+    {
+      id: '18',
+      src: '/images/misc/berlin.png',
+      alt: 'Awesome watch',
+    },
+    {
+      id: '19',
+      src: '/images/misc/closingtimepgh.png',
+      alt: 'Awesome watch',
+    },
+    {
+      id: '20',
+      src: '/images/misc/ctpinewood.png',
+      alt: 'Awesome watch',
+    },
   ]
   
   

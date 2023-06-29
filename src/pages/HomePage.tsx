@@ -35,7 +35,7 @@ const HomePage = () => {
             <Stack spacing={{ base: "6", md: "8" }} justifyContent="center">
               <Text
                 fontSize={{ base: "lg", md: "xl" }}
-                color="fg.muted"
+                textColor="#FFFFFF"
                 textAlign={"justify"}
                 fontFamily={"open-sans"}
                 fontWeight={"light"}
@@ -48,13 +48,14 @@ const HomePage = () => {
                   transition: "transform .25s ease-in",
                 }}
               >
-                Alexander Bartman is a Director, Producer, and Writer currently
-                based in Pittsburgh, Pennsylvania. He has a bachelor’s degree in
-                Cinema Production from Point Park University. He specializes in
-                writing scripts for Short Films, Feature Films, Documentaries,
-                Promos & Commercials, and Voice-Over Work. Alexander directed
-                his first feature film, Closing Time, in 2021 which is set to
-                release in the Summer of 2022.
+                Alexander Bartman is a Director and Writer based in Pittsburgh,
+                Pennsylvania. He is a graduate of a Cinema Production Major at
+                Point Park University with a concentration in directing and
+                writing. His first feature Closing Time premiered in 2022.
+                Winning Awards and being selected in numerous festivals across
+                the globe. Alexander founded the independent production company
+                Arizona Bay Productions in 2021, and has future plans to grow
+                his business.
               </Text>
             </Stack>
           </SimpleGrid>

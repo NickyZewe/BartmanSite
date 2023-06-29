@@ -29,11 +29,17 @@ const ClosingTimeHero = () => {
               >
                 Closing Time
               </Heading>
-              <Text fontSize={{ base: "lg", md: "3xl" }} color="fg.muted">
+              <Text fontSize={{ base: "lg", md: "3xl" }} color="white">
                 An independant feature film.
               </Text>
-              <Text fontSize={{ base: "lg", md: "3xl" }} color="fg.muted">
-                Coming out soon.
+              <Text
+                fontSize={{ base: "lg", md: "3xl" }}
+                color="white"
+                textAlign={"justify"}
+              >
+                Over the course of a day, a man and woman, unexpectedly meet
+                spending the rest of the night contemplating existence and their
+                qualms of life.
               </Text>
             </Stack>
           </Stack>
