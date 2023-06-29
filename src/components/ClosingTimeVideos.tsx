@@ -1,14 +1,11 @@
 import {
   AspectRatio,
-  Box,
   Container,
   Heading,
   SimpleGrid,
   Stack,
   Text,
 } from "@chakra-ui/react";
-import { images } from "../utilities/imageData";
-import { Gallery } from "./Gallery";
 
 const ClosingTimeVideos = () => {
   return (
