@@ -34,8 +34,18 @@ const ClosingTimeHero = () => {
               </Text>
               <Text
                 fontSize={{ base: "lg", md: "3xl" }}
-                color="white"
+                textColor="#FFFFFF"
                 textAlign={"justify"}
+                fontFamily={"open-sans"}
+                fontWeight={"light"}
+                border={"0.px solid black;"}
+                p={3}
+                borderRadius={10}
+                boxShadow={"dark-lg"}
+                _hover={{
+                  transform: "scale(1.03)",
+                  transition: "transform .25s ease-in",
+                }}
               >
                 Over the course of a day, a man and woman, unexpectedly meet
                 spending the rest of the night contemplating existence and their

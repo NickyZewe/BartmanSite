@@ -30,12 +30,19 @@ const ClosingTimeVideos = () => {
           >
             <Stack spacing={{ base: "4", md: "6" }}>
               <Text
-                fontSize={{ base: "lg", md: "3xl" }}
-                color="white"
-                size={{ base: "md", md: "xl" }}
+                fontSize={{ base: "lg", md: "2xl" }}
+                textColor="#FFFFFF"
+                textAlign={"justify"}
                 fontFamily={"open-sans"}
                 fontWeight={"light"}
-                textAlign={"justify"}
+                border={"0.px solid black;"}
+                p={3}
+                borderRadius={10}
+                boxShadow={"dark-lg"}
+                _hover={{
+                  transform: "scale(1.03)",
+                  transition: "transform .25s ease-in",
+                }}
               >
                 Set over the course of a day, escaping mediocrity is all you can
                 do. Jack and Fran are two lost souls in a dying city. Jack, a
@@ -96,16 +103,6 @@ const ClosingTimeVideos = () => {
             </Stack>
           </Stack>
         </SimpleGrid>
-      </Container>
-      <Container py={{ base: "16", md: "24" }} w={"80vw"}>
-        <Box
-          maxW="3xl"
-          mx="auto"
-          px={{ base: "4", md: "8", lg: "12" }}
-          py={{ base: "6", md: "8", lg: "12" }}
-        >
-          <Gallery images={images} />
-        </Box>
       </Container>
     </>
   );
