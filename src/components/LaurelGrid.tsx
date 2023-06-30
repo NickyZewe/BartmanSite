@@ -10,7 +10,7 @@ const ProductGrid = () => {
       px={{ base: "4", md: "8", lg: "12" }}
       py={{ base: "6", md: "8", lg: "12" }}
     >
-      <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={10}>
+      <SimpleGrid columns={{ base: 1, sm: 2, md: 3, lg: 5 }} spacing={10}>
         {laurel.map((laurel) => (
           <Image key={laurel.id} src={laurel.image} loading="lazy" p={5} />
         ))}

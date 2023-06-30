@@ -33,12 +33,12 @@ const ClosingTimeHero = () => {
                 An independant feature film.
               </Text>
               <Text
-                fontSize={{ base: "lg", md: "3xl" }}
+                fontSize={{ base: "lg", md: "xl" }}
                 textColor="#FFFFFF"
                 textAlign={"justify"}
                 fontFamily={"open-sans"}
                 fontWeight={"light"}
-                border={"0.px solid black;"}
+                border={"0px solid black;"}
                 p={3}
                 borderRadius={10}
                 boxShadow={"dark-lg"}
