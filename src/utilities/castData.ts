@@ -37,7 +37,7 @@ export const castMembers = [
     { 
         id: '06',
         name: 'Kolten Exton',
-        role: 'Jack Akerman',
+        role: 'Sound Designer',
         bio: 'Kolten Exton is an editor/sound designer originally from Rochester NY, but currently resides in Pittsburgh. He graduated from Point Park University with BA in Cinema Arts and currently works for a video production company, editing and shooting documentaries, weddings and other events.',
         image: '/images/misc/KoltenExtonHeadshot.png',
     },

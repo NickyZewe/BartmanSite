@@ -19,7 +19,7 @@ const ClosingTimeCast = () => {
         fontWeight={"light"}
         pb={10}
       >
-        Meet the cast
+        Cast and Crew
       </Heading>
       <SimpleGrid
         columns={{ base: 1, md: 2 }}
