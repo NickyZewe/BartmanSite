@@ -84,7 +84,7 @@ const AboutHero = () => {
           <Image
             objectFit="initial"
             objectPosition={{ base: "center" }}
-            src="/images/headshot3.png"
+            src="/images/misc/headshot3.png"
             alt="Alexander Bartman Headshot"
             borderRadius="xl"
           />
