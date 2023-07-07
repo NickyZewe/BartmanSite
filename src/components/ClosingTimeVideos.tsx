@@ -4,7 +4,6 @@ import {
   Heading,
   SimpleGrid,
   Stack,
-  Text,
 } from "@chakra-ui/react";
 
 const ClosingTimeVideos = () => {
