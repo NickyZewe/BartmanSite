@@ -26,29 +26,13 @@ const ClosingTimeVideos = () => {
             direction={{ base: "column", md: "row" }}
           >
             <Stack spacing={{ base: "4", md: "6" }}>
-              <Text
-                fontSize={{ base: "lg", md: "2xl" }}
-                textColor="#FFFFFF"
-                textAlign={"justify"}
+              <Heading
+                size={{ base: "md", md: "xl" }}
                 fontFamily={"open-sans"}
                 fontWeight={"light"}
-                border={"0.px solid black;"}
-                p={3}
-                borderRadius={10}
-                boxShadow={"dark-lg"}
-                _hover={{
-                  transform: "scale(1.03)",
-                  transition: "transform .25s ease-in",
-                }}
               >
-                Set over the course of a day, escaping mediocrity is all you can
-                do. Jack and Fran are two lost souls in a dying city. Jack, a
-                down and out painter, seeks an idealistic love and inspiration,
-                as Fran, a former ballerina, lives in a world of what could have
-                been. Meeting an unexpected way, they both choose to be open as
-                they navigate conversations from jazz through the minutiae of
-                life.
-              </Text>
+                Trailer One
+              </Heading>
             </Stack>
           </Stack>
         </SimpleGrid>
@@ -95,7 +79,7 @@ const ClosingTimeVideos = () => {
                 fontFamily={"open-sans"}
                 fontWeight={"light"}
               >
-                Behind the scenes
+                Behind the Scenes
               </Heading>
             </Stack>
           </Stack>

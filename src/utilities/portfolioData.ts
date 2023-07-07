@@ -7,19 +7,19 @@ export const categories = [
     },
     {
       name: 'Trailer One',
-      imageUrl:'/images/portfolio8.png',
+      imageUrl:'/images/misc/portfolio8.png',
       
       url: 'https://www.youtube.com/watch?v=4HaMf4Sj9UE',
     },
     {
       name: 'Trailer Two',
-      imageUrl:'/images/portfolio9.png',
+      imageUrl:'/images/misc/portfolio9.png',
       url: ' https://youtu.be/L85Cu4GHOJA',
     },
     {
       name: 'Directing Reel 2023',
       imageUrl:
-        '/images/portfolio11.png',
+        '/images/misc/portfolio11.png',
       url: 'https://www.youtube.com/watch?v=Y5eDiXV9Ua4',
     },
     {
@@ -29,17 +29,17 @@ export const categories = [
     },
     {
       name: 'A Short Film About Death',
-      imageUrl:'/images/portfolio5.png',
+      imageUrl:'/images/misc/portfolio5.png',
       url: 'https://www.youtube.com/watch?v=QVmEd9yI-ms',
     },
     {
       name: 'DUKHA',
-      imageUrl:'/images/portfolio10.png',
+      imageUrl:'/images/misc/portfolio10.png',
       url: 'https://www.youtube.com/watch?v=BQo2diwJ3xM',
     },
     {
       name: 'Possession',
-      imageUrl:'/images/portfolio7.png',
+      imageUrl:'/images/misc/portfolio7.png',
       url: 'https://www.youtube.com/watch?v=MoLEnaObiik',
     },
     {
