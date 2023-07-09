@@ -24,7 +24,7 @@ const InqueryPage = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "7afbb6fd-5362-4c43-8b5d-5034b605f38c");
+    formData.append("access_key", "47d5dbd1-8b19-4fe8-ba01-2f2873e856e8");
 
     const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
