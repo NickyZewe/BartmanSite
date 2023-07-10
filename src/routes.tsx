@@ -7,6 +7,7 @@ import PortfolioPage from "./pages/PortfolioPage";
 import ClosingTimePage from "./pages/ClosingTimePage";
 import AboutPage from "./pages/AboutPage";
 import ArizBayProdPage from "./pages/ArizBayProdPage";
+import SuccessPage from "./pages/SuccessPage";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
       { path: "/closingtime", element: <ClosingTimePage /> },
       { path: "/arizonabayproductions", element: <ArizBayProdPage /> },
       { path: "/contact", element: <ContactPage /> },
+      { path: "/success", element: <SuccessPage /> },
     ],
   },
 ]);
