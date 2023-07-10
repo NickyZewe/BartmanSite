@@ -26,13 +26,13 @@ const SuccessPage = () => {
         <HStack spacing="3">
           <NavLink to={"/"}>
             <Button
-              colorScheme="gray"
               fontWeight="light"
               fontSize="2xl"
               fontFamily={"open-sans"}
+              variant={"outline"}
             >
               Back to Home Page
-            </Button>
+            </Button>{" "}
           </NavLink>
         </HStack>
       </Stack>
