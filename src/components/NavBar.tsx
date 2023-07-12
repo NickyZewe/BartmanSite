@@ -87,7 +87,7 @@ const NavBar = () => {
               bgColor={"#525252"}
               _hover={{ bgColor: "#2a2a2a" }}
             >
-              Contact Me
+              Contact
             </MenuItem>
           </NavLink>
         </MenuList>
