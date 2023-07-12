@@ -82,9 +82,9 @@ const AboutHero = () => {
         </Stack>
         <AspectRatio ratio={1}>
           <Image
-            objectFit="initial"
-            objectPosition={{ base: "center" }}
-            src="/images/misc/headshot3.png"
+            objectFit="contain"
+            objectPosition={{ base: "top" }}
+            src="/images/misc/headshot.png"
             alt="Alexander Bartman Headshot"
             borderRadius="xl"
           />

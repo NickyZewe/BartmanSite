@@ -29,7 +29,7 @@ const Showcase = () => {
             objectPosition="top center"
             objectFit={"contain"}
             title="About"
-            src="/images/misc/headshot3.png"
+            src="/images/misc/headshot.png"
             alt="Lovely Image"
           />
           <Stack spacing={{ base: "6", md: "10" }} maxW={{ md: "400px" }}>
