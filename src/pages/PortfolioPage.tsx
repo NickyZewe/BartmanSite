@@ -6,7 +6,7 @@ const PortfolioPage = () => {
   return (
     <Flex
       maxW="7xl"
-      mx="auto"
+      h={""}
       px={{ base: "4", md: "8", lg: "12" }}
       py={{ base: "6", md: "8", lg: "12" }}
     >
@@ -26,7 +26,7 @@ const PortfolioPage = () => {
           </Heading>
         </Flex>
         <SimpleGrid
-          columns={{ base: 1, sm: 2, md: 3 }}
+          columns={{ base: 1, sm: 4 }}
           gap={{ base: "4", md: "6" }}
           boxSize={{ sm: "md", md: "lg", lg: "2xl", xl: "3xl" }}
         >

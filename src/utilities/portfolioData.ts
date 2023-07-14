@@ -43,8 +43,33 @@ export const categories = [
       url: 'https://www.youtube.com/watch?v=MoLEnaObiik',
     },
     {
-      name: 'Videography Work: TBA',
-      imageUrl:'/images/photos-set/set5.png',
+      name: 'Jim & Marlene’s Bangin’ Backyard Jam',
+      imageUrl:'/images/misc/portfolio12.png',
+      url:'https://vimeo.com/743437877'
+      
+    },
+    {
+      name: 'Shoshana & Moshe Wedding',
+      imageUrl:'/images/misc/portfolio13.png',
+      url:'https://youtu.be/LRNWcTngYK8'
+      
+    },
+    {
+      name: 'Multicultural Cooking Series',
+      imageUrl:'/images/misc/portfolio14.png',
+      url:'https://youtube.com/playlist?list=PLQQ8RwsRSXk4MIOnJyPLCYcnhHt2jQVln'
+      
+    },
+    {
+      name: 'Community Helpers',
+      imageUrl:'/images/misc/portfolio15.png',
+      url:'https://youtube.com/playlist?list=PLQQ8RwsRSXk5tLQy6YbZWSvFhdzMDh1OB'
+      
+    },
+    {
+      name: '#WPLNeighbors Campaign',
+      imageUrl:'/images/misc/portfolio16.png',
+      url:'https://youtube.com/playlist?list=PLQQ8RwsRSXk4yajxuk2skELoDrkg49YYC'
       
     },
   ]
