@@ -118,7 +118,7 @@ const Footer = () => {
           />
         </SimpleGrid>
         <Text fontSize="sm" color="#ffffff">
-          &copy; {new Date().getFullYear()} Nicholas Zewe Web Developement. All
+          &copy; {new Date().getFullYear()} Nixi Software Solutions, LLC. All
           rights reserved.
         </Text>
       </Stack>
