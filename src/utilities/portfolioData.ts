@@ -72,6 +72,24 @@ export const categories = [
       url:'https://youtube.com/playlist?list=PLQQ8RwsRSXk4yajxuk2skELoDrkg49YYC'
       
     },
+    {
+      name: 'Twilight Hike with the Allegheny Park Rangers',
+      imageUrl:'/images/misc/portfolio17.png',
+      url:'https://www.youtube.com/watch?v=TD6zvEZovTY'
+      
+    },
+    {
+      name: 'Behind the Stacks: Cataloging',
+      imageUrl:'/images/misc/portfolio18.png',
+      url:'https://www.youtube.com/watch?v=bTMn0t5WJBI'
+      
+    },
+    {
+      name: 'Bat Mitzvah (Lucy)',
+      imageUrl:'/images/misc/portfolio19.png',
+      url:'https://www.youtube.com/watch?v=XWfRI19mOj0'
+      
+    },
   ]
   
   export type ElementType<T extends ReadonlyArray<unknown>> = T extends ReadonlyArray<
